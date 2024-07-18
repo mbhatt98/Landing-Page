@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background: #636161;
+    color: #fff;
+    height: 20px;
+    padding: 1rem 0;
+    font-size: larger;
+}
+.logo {
+    image-resolution: 50px;
+    height: 10px;
+    width: 10px; 
+    margin-right: 10px;
+    size: 10px;
+
+}
+header nav {
+    float: right;
+    color: D8EFD3;
+}
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin-left: 1rem;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.banner {
+    background: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+}
+.banner .btn {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+.products {
+    padding: 2rem 0;
+}
+.products .product-grid {
+    display: flex;
+    justify-content: space-between;
+}
+.products .product {
+    text-align: center;
+    width: 30%;
+}
+.products .product img {
+    max-width: 100%;
+}
+.products .btn {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+.about {
+    padding: 2rem 0;
+    background: #f9f9f9;
+    text-align: center;
+}
+.about h2 {
+    margin-bottom: 1rem;
+}
+.about p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+.contact {
+    padding: 2rem 0;
+}
+.contact h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+footer .footer-nav {
+    margin-bottom: 1rem;
+}
+footer .footer-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+footer .footer-nav ul li {
+    margin: 0 1rem;
+}
+footer .footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+footer .social-media {
+    margin-bottom: 1rem;
+}
+footer .social-media a {
+    margin: 0 0.5rem;
+}
+footer .social-media img {
+    height: 24px;
+}
